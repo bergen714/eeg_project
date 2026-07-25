@@ -1,5 +1,7 @@
-# EEG Signal Processing and Intent Prediction Project
+# Detecting left vs right hand imagery from EEG recordings in PhysioNet dataset
 
-## Decoding EEG signals, identifying what the patient's intention was, and figuring out which channels correlate the most with the intent.
+## Signal Processing Pipeline for the PhysioNet MMIDB dataset
 
-In this project, I created and EEG signal processsing pipeline, in which I analyzed things from power analysis to neural decoding.
+This project extracts meaningful information from noisy EEG signals to distinguish left vs right hand movement. It walks through the full analysis pipeline using the MNE Python library. The pipeline in this project utilizes bandpass filtering, ICA-based artifact extraction, Welch's method for power spectral density estimation, event-related desynchronization (ERD) analysis, and classification with SVM and Random Forest.
+
+If you want to learn EEG signal processing, explore motor imagery BCIs, or looking for a working example of the MNE-Python library on real recordings, this repository is for you. It includes one Jupyter notebook for data preprocessing and other for band analysis and imagery classification. There is also an interactive dashboard for exploring the features.

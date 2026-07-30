@@ -1,6 +1,6 @@
 # Detecting left vs right hand imagery from EEG recordings in the PhysioNet dataset
 
-## Signal Processing Pipeline for the [PhysioNet MMIDB dataset](https://www.physionet.org/content/eegmmidb/1.0.0/)
+## Signal Processing Pipeline using the [PhysioNet MMIDB dataset](https://www.physionet.org/content/eegmmidb/1.0.0/)
 
 This project extracts meaningful information from noisy EEG signals to distinguish left vs right hand movement. It walks through the full analysis pipeline using the MNE Python library. The pipeline in this project utilizes bandpass filtering, ICA-based artifact extraction, Welch's method for power spectral density estimation, event-related desynchronization (ERD) analysis, and classification with SVM and Random Forest.
 

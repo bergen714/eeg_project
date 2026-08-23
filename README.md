@@ -2,7 +2,7 @@
 
 ## Signal Processing Pipeline using the [PhysioNet MMIDB dataset](https://www.physionet.org/content/eegmmidb/1.0.0/)
 
-This project extracts meaningful information from noisy EEG signals to distinguish left vs right hand movement. It walks through the full analysis pipeline using the MNE Python library. The pipeline in this project utilizes bandpass filtering, ICA-based artifact extraction, Welch's method for power spectral density estimation, event-related desynchronization (ERD) analysis, and classification with SVM and Random Forest.
+This project attempts to extract brain signals from noisy EEG signals to distinguish left vs right motor imagery. It walks through the full analysis pipeline using the MNE Python library. The pipeline in this project utilizes bandpass filtering, Independent Component Analysis (ICA)-based artifact extraction, Welch's method for power spectral density estimation (PSD), event-related desynchronization (ERD) analysis, and classification with SVM and Random Forest.
 
 If you want to learn EEG signal processing, explore motor imagery BCIs, or are looking for a working example of the MNE-Python library on real recordings, this repository is for you. It includes one Jupyter notebook for data preprocessing and another for band analysis and imagery classification. There is also an interactive dashboard for exploring the features. The graphs are located inside the 'plots' folder.
 
